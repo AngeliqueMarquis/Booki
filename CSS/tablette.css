@@ -1,12 +1,12 @@
 @media all and (max-width:992px)
 {
-/* Lieu */
+/* Location */
 #recherche .fa-search
 {
     display: none;
 }
 
-/* Populaires */
+/* Populars */
     #hebergementpopulaire   
     {
         display: flex;
@@ -25,7 +25,7 @@
         margin: 1%;
     }
 
-/* Activites */
+/* Activities */
     #cartesact
     {
         display: flex;

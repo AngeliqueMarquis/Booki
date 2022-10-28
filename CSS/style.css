@@ -24,7 +24,7 @@ p
     font-size: 14px ;
 }
 
-/*En-tete*/
+/*Headers*/
 header
 {
     display:flex;
@@ -62,7 +62,7 @@ nav a:hover
     padding-top: 15px;
 }
 
-/*lieu*/
+/*placeholder*/
 #titre
 {  
     padding-top: 20px;
@@ -121,7 +121,7 @@ input::placeholder
     cursor: pointer;
 }
 
-/*Filtres*/
+/*Filters*/
 #filtre
 {
     padding-top: 1%;
@@ -200,7 +200,7 @@ input::placeholder
     padding-left: 10px;
 }
 
-/* hebergement */
+/* location */
 #hebergement
 {
     background-color: #F2F2F2;

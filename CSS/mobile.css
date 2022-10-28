@@ -6,7 +6,7 @@
         width: 100%;
     }
     
-/* En-tete */
+/* header */
     header
     {
         display: flex;
@@ -93,7 +93,7 @@
         border-radius: 15px 0 0 15px;
     }
 
-/* Filtres */
+/* Filters */
     #filtre
     {
         display: flex;
@@ -148,7 +148,7 @@
         margin: 1%;
     }
 
-/* Hébergements */
+/* location */
     #hebergement
     {
         background-color: white;
@@ -190,7 +190,7 @@
         margin-top: -2%;
     }
 
-/* Activites */
+/* Activities */
     #cartesact
     {
         display: flex;
@@ -233,7 +233,7 @@
        margin-bottom: 4%;
     }
 
-    /* Pied de page */
+    /*  Footer */
     footer
     {
         display: flex;
