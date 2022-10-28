@@ -1,0 +1,249 @@
+@media all and (max-width:768px)
+{
+/* Generale */
+    body
+    {
+        width: 100%;
+    }
+    
+/* En-tete */
+    header
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    header img
+    {
+        width: 20%;
+    }
+
+    nav
+    {
+        width: 100%;
+        margin-top:5%;
+    }
+
+    nav li 
+    {
+        border-bottom: 3px solid #F2F2F2;
+        padding-bottom: 10px;
+        width: 50%;
+        text-align: center;
+    }
+
+    nav li:hover
+    {
+        color: #0065FC;
+        border-bottom:  3px solid #0065FC;
+        padding-bottom: 10px;
+    } 
+
+    nav a:hover
+    {
+        border-top: transparent;
+    }
+
+/* Lieu */
+    #titre
+    {
+        margin-left: 6%;
+    }
+
+    #titre h1
+    {
+        padding-right: 15%;
+    }
+    button span
+    {
+        display: none;
+    }
+
+    #recherche
+    {
+        margin-left: 6%;
+    }
+
+    #recherche .fa-search
+    {
+        position: absolute;
+        color: white;
+        display: flex;
+        text-align: center;
+        margin-top: -13%;
+        margin-left: 22%;
+    }
+
+    #recherche button
+    {
+        width: 13%;
+        border-radius: 15px 15px 15px 15px;
+        margin-left: 5%;
+    }
+
+    #recherche input
+    {
+        width: 235px;
+    }
+
+    .fa-location-dot
+    {
+        border-radius: 15px 0 0 15px;
+    }
+
+/* Filtres */
+    #filtre
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 6%;
+        margin-top: 2%;
+    }
+
+    #filtre ul 
+    {
+        display: flex;
+        margin-left: -12%;
+        margin-top: -2%;
+    }
+
+    #filtre li
+    {
+        margin: 5px;
+    }
+
+    #info
+    {
+        margin-left: 6%;
+    }
+    
+    #info p
+    {
+        margin-right: 10%;
+    }
+/* Populaires */
+    #populaires
+    {
+        border-radius: 0;
+    }
+
+    #hebergementpopulaire
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #hebergement, #populaires
+    {
+        width:100%;
+        height: 90%;
+    }
+
+    #populaires img
+    {
+        height: 119px;
+        margin: 1%;
+    }
+
+/* Hébergements */
+    #hebergement
+    {
+        background-color: white;
+    }
+
+    .carte
+    {
+        display: flex;
+        flex-direction: column;
+        width: 341%;
+        margin-left: -5%;
+    }
+
+    #aubergecannebiere, #hotelport, #hotelmouettes, #hotelmer, #aubergepanier, #hotelamina
+    {
+        box-shadow: 0px 0px 20px 5px #F2F2F2;
+        margin-bottom: 2%;
+    }
+
+    #aubergecannebiere h3, #hotelport h3, #hotelmouettes h3, #hotelmer h3, #aubergepanier h3, #hotelamina h3
+    {
+        margin-bottom: 1%;
+    }
+
+    #aubergecannebiere p, #hotelport p, #hotelmouettes p, #hotelmer p, #aubergepanier p, #hotelamina p
+    {
+        margin-bottom: -1%;
+    }
+
+    #aubergecannebiere img, #hotelport img, #hotelmouettes img, #hotelmer img, #aubergepanier img, #hotelamina img
+    {
+        width: 98%;
+        height: 57%;
+        margin: 1%;
+    }
+
+    .carte #etoile
+    {
+        margin-top: -2%;
+    }
+
+/* Activites */
+    #cartesact
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 1600px;
+    }
+
+    #activites h1
+    {
+        margin-bottom: -5%;
+    }
+
+    .cartesseules
+    {
+        width: 100%;
+        margin-top: -12%;
+        margin-bottom: -21%;
+    }
+
+    .cartescolonnes
+    {
+        row-gap: 14px;
+        width: 100%;     
+    }
+    .vieuxport, .fortpomegues, .ilesfrioul, .calanques, .notredame, .parclongchamp
+    {
+        height: 53%;
+        width: 92%;
+        margin-left: 4%;
+    }
+
+    .vieuxport img, .fortpomegues img, .ilesfrioul img, .calanques img, .notredame img, .parclongchamp img
+    {
+        height: 75%;
+    }
+
+    .fortpomegues, .notredame
+    {
+       margin-bottom: 4%;
+    }
+
+    /* Pied de page */
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    #assistance, #propos, #noshebergements
+    {
+        margin-left: 4%;
+    }
+
+}

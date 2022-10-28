@@ -1,0 +1,63 @@
+@media all and (max-width:992px)
+{
+/* Lieu */
+#recherche .fa-search
+{
+    display: none;
+}
+
+/* Populaires */
+    #hebergementpopulaire   
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #hebergement, #populaires
+    {
+        width:100%;
+        height: 90%;
+    }
+
+    #populaires img
+    {
+        height: 144px;
+        margin: 1%;
+    }
+
+/* Activites */
+    #cartesact
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 1600px;
+    }
+
+    .cartesseules
+    {
+        width: 100%;
+        margin-top: -7%;
+        margin-bottom: -12%;
+    }
+
+    .cartescolonnes
+    {
+        margin-bottom: 3%;
+        width:100%;     
+    }
+    .vieuxport, .fortpomegues, .ilesfrioul, .calanques, .notredame, .parclongchamp
+    {
+        height: 53%;
+    }
+
+    .vieuxport img, .fortpomegues img, .ilesfrioul img, .calanques img, .notredame img, .parclongchamp img
+    {
+        height: 75%;
+    }
+
+    .fortpomegues, .notredame
+    {
+       margin-bottom: 4%;
+    }
+}
